@@ -1,8 +1,14 @@
 import React from 'react';
 // 리액트를 불러옴
 
-function Hello({color, name}){
-  return <div style={{ color }}>안녕하세요 {name} </div>
+function Hello({color, name, isSpecial}){
+  return (
+    <div style={{color}}>
+      { isSpecial && <b>*</b> }
+      {/* isSpecial값이 true 라면 <b>*</b>를, 그렇지 않다면 null을 보여주도록 한다. */}
+      안녕하세요 {name} 
+    </div>
+  );
 }
 
 Hello.defaultProps = {
