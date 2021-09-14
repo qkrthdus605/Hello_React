@@ -3,7 +3,7 @@ import MyComponent from './MyComponent';
 
 const App = () => {
   return (
-    <MyComponent />
+    <MyComponent>리액트</MyComponent>
   );
 }
 
