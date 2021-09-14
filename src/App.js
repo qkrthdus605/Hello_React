@@ -1,9 +1,9 @@
 import React from 'react';
-import InputSample from './InputSample';
+import MyComponent from './MyComponent';
 
-function App() {
+const App = () => {
   return (
-    <InputSample />
+    <MyComponent />
   );
 }
 
