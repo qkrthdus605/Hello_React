@@ -1,9 +1,9 @@
 import React from 'react';
-import MyComponent from './MyComponent';
+import EventPractice from './EventPractice';
 
 const App = () => {
   return (
-    <MyComponent>리액트</MyComponent>
+    <EventPractice />
   );
 }
 
