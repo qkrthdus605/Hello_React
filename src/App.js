@@ -1,9 +1,9 @@
 import React from 'react';
-import EventPractice from './EventPractice';
+import Validation from './Validation';
 
 const App = () => {
   return (
-    <EventPractice />
+    <Validation />
   );
 }
 
