@@ -65,6 +65,8 @@ class LifeCycleSample extends Component{
 
     return(
       <div>
+        {/* 에러 발생코드 */}
+        {/* {this.props.missing.value} */}
         <h1 style = {style} ref = {ref => this.myRef = ref}> 
           {this.state.number}
         </h1>
