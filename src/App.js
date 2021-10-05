@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import Average from './Average';
+import Local from './Local';
 
 const App = () => {
   return(
-    <Average />
+    <Local />
   );
 };
 
