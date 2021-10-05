@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import Local from './Local';
+import Info from './Info';
 
 const App = () => {
   return(
-    <Local />
+    <Info />
   );
 };
 
